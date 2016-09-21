@@ -5,7 +5,7 @@
 
 /************************************************
 ** Date:	2016.9.21  
-** LMY-GRS
+** LMY-GRS (Loca Move Yielded by Greedy and Random Selections)
 ** Author: Yi Fan, yi.fan4@griffithuni.edu.au   
 **		   Institute for Integrated and Intelligent Systems,
 **		   Griffith University, 
