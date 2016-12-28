@@ -403,6 +403,8 @@ ans_update_times = 0;
 	{
 		while(1)
 		{
+			for(int i = 0; i < SEARCH_DEPTH; i++)
+			{
 				if(step % TRY_STEP == 0)
 				{
 					times(&finish);
@@ -412,6 +414,8 @@ ans_update_times = 0;
 				local_move();
 //show_state();
 //getchar();
+			}
+			clear();
 		}
 	}
 
