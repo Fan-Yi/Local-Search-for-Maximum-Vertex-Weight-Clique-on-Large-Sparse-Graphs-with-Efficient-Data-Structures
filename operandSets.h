@@ -78,7 +78,7 @@ public:
 		for(; i != end(); i++)
 		{
 			int v = array[i];
-			if(!confChange[v]) break;
+			if(!confChange[v]) continue;
 			if(vertices[v].get_weight() > vertices[best_v].get_weight() || (vertices[v].get_weight() == vertices[best_v].get_weight() && time_stamp[v] < time_stamp[best_v]))
 				best_v = v;
 		}
